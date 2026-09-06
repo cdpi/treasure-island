@@ -1,0 +1,17 @@
+{
+"compilerOptions":
+	{
+	"target": "esnext",
+	"module": "esnext",
+	"paths":
+		{
+		"@cdpi/*": ["./node_modules/cdpi/*"]
+		},
+	"rootDir": "./src",
+	"outDir": "./scripts",
+	"lib": ["DOM", "ESNext"],
+	"strict": true,
+	"skipLibCheck": true,
+	"declaration": false
+	}
+}
