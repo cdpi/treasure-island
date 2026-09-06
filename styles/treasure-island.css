@@ -1,0 +1,78 @@
+
+/*
+Todo créée et marquée complétée — voici des couleurs web pour du sable de plage :
+
+Sable très clair : #F4E7D3 — rgb(244,231,211)
+Sable doré : #EFD6A2 — rgb(239,214,162)
+Sable chaud : #E6C89E — rgb(230,200,158)
+Sable humide (plus sombre) : #CFC1A6 — rgb(207,193,166)
+Dune naturelle : #BFA78A — rgb(191,167,138)
+Coquillage (accent rosé) : #F2DFD7 — rgb(242,223,215)
+Usage rapide :
+
+Fond clair : #F4E7D3 ou #F2DFD7.
+Accent / ombre : #CFC1A6 ou #BFA78A.
+Souhaitez-vous un ensemble CSS (variables) ou une palette exportable (ASE/JSON) ?
+*/
+
+/*
+:root
+	{
+	--island-color: #BFA78A;
+	--island-dot: #CFC1A6;
+	}
+*/
+
+:root
+	{
+	--water-color: lightblue;
+	}
+
+body
+	{
+	background-color: var(--water-color);
+	margin: 0;
+	overflow: hidden;
+	}
+
+/*
+html, body
+	{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	}
+*/
+
+/*
+#island, #tuto
+	{
+	background-color: lightblue;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	}
+*/
+
+#treasure-island
+	{
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	}
+
+/* light
+
+:root
+	{
+	--howto-primary-color: gold;
+	}
+*/
+
+/* dark
+
+:root
+	{
+	--howto-primary-color: orange;
+	}
+*/
